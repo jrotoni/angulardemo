@@ -7,7 +7,10 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // title = 'app';
+  name:string = '';
 
-  constructor(private httpClient: HttpClient)
+  constructor(private httpClient: HttpClient) {}
+  onNameKeyUp(event:any){
+    this.name = event.target.value;
+  }
 }

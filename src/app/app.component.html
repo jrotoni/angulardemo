@@ -18,6 +18,6 @@
   </li>
 </ul> -->
 
-<input type="text">
-<button (click)=searchCar()>Search</button>
+<input type="text" (keyup)="onNameKeyUp($event)">
+<button (click)=getProfile()>Search</button>
 
