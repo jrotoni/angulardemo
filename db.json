@@ -1,12 +1,15 @@
-[
 {
-    "id": 1,
-    "name": "Juan",
-    "age": 21
-},
-{
-    "id": 2,
-    "name": "Pedro",
-    "age": 22
+    "profiles": [
+        {
+            "id": 1,
+            "name": "Juan",
+            "age": 21
+        },
+        {
+            "id": 2,
+            "name": "Pedro",
+            "age": 22
+        }
+        ]
+
 }
-]
